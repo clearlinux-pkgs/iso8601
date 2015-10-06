@@ -4,7 +4,7 @@
 #
 Name     : iso8601
 Version  : 0.1.10
-Release  : 13
+Release  : 14
 URL      : https://pypi.python.org/packages/source/i/iso8601/iso8601-0.1.10.tar.gz
 Source0  : https://pypi.python.org/packages/source/i/iso8601/iso8601-0.1.10.tar.gz
 Summary  : Simple module to parse ISO 8601 dates
