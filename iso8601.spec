@@ -4,7 +4,7 @@
 #
 Name     : iso8601
 Version  : 0.1.11
-Release  : 22
+Release  : 23
 URL      : https://pypi.python.org/packages/source/i/iso8601/iso8601-0.1.11.tar.gz
 Source0  : https://pypi.python.org/packages/source/i/iso8601/iso8601-0.1.11.tar.gz
 Summary  : Simple module to parse ISO 8601 dates
@@ -13,11 +13,15 @@ License  : MIT
 Requires: iso8601-python
 BuildRequires : pbr
 BuildRequires : pip
+BuildRequires : pluggy
 BuildRequires : py
+BuildRequires : py-python
 BuildRequires : pytest
 BuildRequires : python-dev
 BuildRequires : python3-dev
 BuildRequires : setuptools
+BuildRequires : tox
+BuildRequires : virtualenv
 
 %description
 Simple module to parse ISO 8601 dates
@@ -36,14 +40,10 @@ python components for the iso8601 package.
 %setup -q -n iso8601-0.1.11
 
 %build
+export LANG=C
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
-%check
-export http_proxy=http://127.0.0.1:9/
-export https_proxy=http://127.0.0.1:9/
-export no_proxy=localhost,127.0.0.1,0.0.0.0
-py.test-2.7  --verbose iso8601
 %install
 rm -rf %{buildroot}
 python2 -tt setup.py build -b py2 install --root=%{buildroot}
