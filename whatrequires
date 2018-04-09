@@ -1,13 +1,16 @@
 # This file contains recursive sources that require this package
+acme
 ceph
+certbot
 cryptography
 ecdsa
 gensim
+josepy
 jupyter-notebook-gist
-keyring
 ndg_httpsclient
 paramiko
 pyOpenSSL
+python-zeep
 requests
 samba
 secretstorage
