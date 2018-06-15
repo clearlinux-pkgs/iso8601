@@ -18,7 +18,7 @@ BuildRequires : pluggy
 BuildRequires : py
 BuildRequires : py-python
 BuildRequires : pytest
-BuildRequires : python-dev
+
 BuildRequires : python3-dev
 BuildRequires : setuptools
 BuildRequires : tox
