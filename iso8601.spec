@@ -4,7 +4,7 @@
 #
 Name     : iso8601
 Version  : 0.1.12
-Release  : 44
+Release  : 45
 URL      : https://pypi.debian.net/iso8601/iso8601-0.1.12.tar.gz
 Source0  : https://pypi.debian.net/iso8601/iso8601-0.1.12.tar.gz
 Summary  : Simple module to parse ISO 8601 dates
