@@ -1,17 +1,4 @@
 # This file contains recursive sources that require this package
-cinder
 cryptography
-glance
-gnocchiclient
-horizon
-keystoneauth1
-nova
-openstacksdk
-oslo.utils
-oslo.versionedobjects
-python-neutronclient
-python-novaclient
-sahara
 samba
 subunit
-tempest-lib
