@@ -4,7 +4,7 @@
 #
 Name     : iso8601
 Version  : 0.1.16
-Release  : 61
+Release  : 62
 URL      : https://files.pythonhosted.org/packages/45/66/a943f702763c879e2754b46089a136ee1e58f0f720c58fa640c00281d3fd/iso8601-0.1.16.tar.gz
 Source0  : https://files.pythonhosted.org/packages/45/66/a943f702763c879e2754b46089a136ee1e58f0f720c58fa640c00281d3fd/iso8601-0.1.16.tar.gz
 Summary  : Simple module to parse ISO 8601 dates
